@@ -6,7 +6,7 @@ from aiortc import (
 from aiortc.contrib.signaling import object_to_string, object_from_string
 from cryptography.fernet import Fernet
 
-FERNET_KEY = b"pj-mzZnr42NntvYt7hfKcqU79ZdyVBKKol4ufgIhDDE="
+FERNET_KEY = b"key"
 fernet = Fernet(FERNET_KEY)
 
 # --- Utility Functions ---
