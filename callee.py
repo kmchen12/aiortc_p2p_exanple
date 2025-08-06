@@ -5,7 +5,7 @@ from aiortc.contrib.signaling import object_to_string, object_from_string
 from cryptography.fernet import Fernet
 
 # --- 加密金鑰（與 caller 相同） ---
-FERNET_KEY = b"pj-mzZnr42NntvYt7hfKcqU79ZdyVBKKol4ufgIhDDE="
+FERNET_KEY = b"key"
 fernet = Fernet(FERNET_KEY)
 
 # --- 狀態追蹤變數 ---
